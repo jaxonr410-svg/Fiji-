@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ & Contact — Suva Fiji</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body class="faq-page">
+
+<header>
+    <nav class="top-nav">
+       <a href="Home.html">Home</a>
+            <a href="Attractions.html">Attractions</a>
+            <a href="Culture.html">Culture</a>
+            <a href="Events.html">Events</a>
+            <a href="FamilyActivities.html">Family Activities</a>
+            <a href="OutdoorActivities.html">Outdoor Activities</a>
+            <a href="Restaurants.html">Restaurants</a>
+            <a href="FAQ.html" class="active">FAQ/Contact</a>
+    </nav>
+</header>
+
+<main>
+   
+    <section class="contact-section">
+        <h1>Contact the City</h1>
+        <p>Have a question? Fill out this form and we’ll respond as soon as possible.</p>
+
+        <form id="contactForm" action="#" method="post" novalidate>
+        
+            <label>
+                Full Name
+                <input type="text" name="name" required>
+            </label>
+
+        
+            <label>
+                Email Address
+                <input type="email" name="email" required>
+            </label>
+
+           
+            <fieldset class="reason-field">
+                <legend>Reason for contacting</legend>
+                <div class="form-row">
+                    <label><input type="radio" name="reason" value="info" required> General Info</label>
+                    <label><input type="radio" name="reason" value="report"> Report Issue</label>
+                    <label><input type="radio" name="reason" value="events"> Events & Permits</label>
+                    <label><input type="radio" name="reason" value="other"> Other</label>
+                </div>
+            </fieldset>
+
+          
+            <label>
+                Preferences
+                <div class="form-row">
+                    <label><input type="checkbox" name="updates"> Send me updates</label>
+                    <label><input type="checkbox" name="followup"> Follow up by phone</label>
+                </div>
+            </label>
+
+            <label>
+                Message
+                <textarea name="message" placeholder="Your message here..."></textarea>
+            </label>
+
+           
+            <label>
+                <input type="checkbox" name="not_robot" required> I confirm I'm not a robot
+            </label>
+
+            
+            <div class="actions">
+                <button type="submit">Send Message</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </section>
+
+   
+    <aside class="faq-section">
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faq-item">
+            <h3>1. What’s the weather like in Suva?</h3>
+            <p>Suva has warm tropical weather year-round with occasional rain showers.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>2. What currency is used?</h3>
+            <p>The Fijian Dollar (FJD). Credit/debit cards are widely accepted.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>3. Is it safe?</h3>
+            <p>Yes, but normal travel precautions should be observed.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>4. How do I get around?</h3>
+            <p>Buses, taxis, walking, and guided tours are common options.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>5. Best time to visit?</h3>
+            <p>May to October is generally preferred for cooler, drier weather.</p>
+        </div>
+
+    </aside>
+</main>
+
+</body>
+</html>
